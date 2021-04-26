@@ -80,7 +80,7 @@ h1, h2, h3, h4, h5, h6 {
 #header .profile img {
   margin: 15px auto;
   display: block;
-  width: 120px;
+  width: 150px;
   border: 8px solid #2c2f3f;
 }
 
@@ -575,6 +575,7 @@ section {
   text-align: center;
   background: rgba(20, 157, 221, 0.75);
   transition: 0.3s;
+  /* max-width: 50; */
   width: 50%;
 }
 
@@ -607,7 +608,10 @@ section {
 }
 
 .portfolio-details .portfolio-details-slider img {
+  /* max-width: 200; */
   width: 100%;
+  /* height: 50%; */
+  /* width: 50%; */
 }
 
 .portfolio-details .portfolio-details-slider .swiper-pagination {
